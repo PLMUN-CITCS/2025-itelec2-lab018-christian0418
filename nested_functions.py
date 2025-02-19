@@ -1,0 +1,12 @@
+def sum_of_squares(numbers):
+    """Returns the sum of the squares of the numbers in the list."""
+    total = 0
+    for n in numbers:
+        total += n ** 2  # Calculate the square and add to total
+    return total
+
+# Example usage
+numbers_list = [2, 3, 4]
+result = sum_of_squares(numbers_list)
+
+print(f"The sum of squares is: {result}")
